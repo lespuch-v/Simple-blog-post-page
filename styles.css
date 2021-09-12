@@ -1,0 +1,168 @@
+
+
+/* BODY */
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation BAR */
+.nav-bar-icon{
+    width: 4em;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1200px;
+    max-width: 100%;
+    /* background-color: yellow; */
+    border-bottom: 2px solid rgb(143, 143, 143);
+}
+.light-heading{
+    color: gray;
+}
+h2{
+    font-size: 40px;
+}
+.header-container{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+.myImage-icon{
+    width: 1.5em;
+    padding: 10px;
+}
+.myHeader-title{
+    padding: 0;
+    margin: 0;
+}
+.nav-bar-right, .nav-bar-left{
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fname{
+    width: 130px;
+    height: 30px;
+}
+.paragraph-sign-in{
+    color:rgb(143, 143, 143);
+    font-size: 1.5em;
+    padding-right: 20px;
+    text-decoration: none;
+
+}
+.paragraph-sign-in:hover,
+.paragraph-sign-in:focus{
+    color:rgb(180, 180, 180);
+}
+/* Still Header */
+
+.myLinks{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 0 10px;
+}
+.justALink{
+    padding: 10px 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: gray;
+}
+.justALink:hover,
+.justALink:focus{
+    color: rgb(177, 176, 176);
+}
+/* Main Body */
+.uber-main-cotainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.main-header-container{
+    margin-top: 50px;
+    width: 700px;
+    max-width: 100%;
+    text-align: center;
+}
+.justanImage{
+    padding-top: 40px;
+    width: 1000px;
+    max-width: 100%;
+}
+.second-sun{
+    padding-top: 50px;
+    width: 700px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.article-image{
+    padding-top: 30px;
+    width: 600px;
+    max-width: 100%;
+}
+.subhead::first-letter {
+    color: rgb(51, 51, 51);
+    float: left;
+    font-size: 55px;
+    line-height: 50px;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-left: 3px;
+  }
+  .myFooter{
+      width: 1200px;
+      max-width: 100%;
+      margin: 0 auto;
+      background-color: rgb(240, 240, 240);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 15px;
+
+
+  }
+  .myFooter a{
+      margin: 5px;
+      font-weight: bold;
+      text-decoration: none;
+      color: gray;
+  }
+  .myFooter:hover a,
+  .myFooter:focus a{
+    color: rgb(177, 176, 176);
+  }
+
+/* from a minimum width of 400px and bigger */
+@media (max-width: 750px) {
+    body{
+        overflow-x: hidden;
+    }
+    .myLinks, .myHeader-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .myFooter{
+        max-width: 100%;
+    }
+    .second-sun{
+        width: 90%;
+    }
+    .myforestImage{
+        width: 90%;
+    }
+
+}
